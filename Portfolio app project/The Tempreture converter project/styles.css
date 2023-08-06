@@ -1,0 +1,195 @@
+html, body{
+    background-color: whitesm;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(35, 34, 33   ), rgb(192, 184, 182,0.7) );
+    
+}
+
+
+
+#intro-div{
+    width: 100%;
+    height: 40%;
+    background-color: ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+   
+}
+
+
+#intro-div  .sub_divs1{
+    width: 70%;
+   text-align: center;
+    height: 50%;
+    border-bottom: black;
+}
+
+h1{
+    font-size: 55px;
+   letter-spacing: 4px;
+    font-family: sans-serif;
+    font:robot;
+    transform: scaleY(2);
+    color:rgb(0,0,0,0.7);
+}
+
+span{
+    font-family: serif;
+    color: rgba(255, 127, 80, 0.8);
+    
+}
+
+#task-para{
+    text-align: center;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+
+#intro-p{
+    font-family:monospace;
+    font-size: 20px;
+    font-weight:500;
+    
+}
+
+
+
+
+
+#converters-div{
+    width: 80%;
+    height: 65%;
+    background-color:glightgrey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+
+
+#converters-div  #faranheit_content-div{
+    width: 30%;
+    height: auto%;
+    background-color: ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
+
+#converters-div  #celcius_content-div{
+    width: 30%;
+    height: auto%;
+    background-color: ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+
+.paragraph2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+bold{
+    color:dimgrey;
+    font-weight: 600;
+    
+}
+
+
+
+
+button{
+    color: black;
+    margin-top: 10px;
+    align-self: center;
+    border-color: black;
+   
+    
+}
+
+
+.input_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.input_div #Faranheit_Input{
+   width: 100%;
+    height: 30px;
+    border-color: black;
+}
+
+.input_div #Celcius_Input{
+   width: 100%;
+    height: 30px;
+    border-color: black;
+}
+
+#Faranheit_Button{
+    background-color: coral;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+   
+
+
+
+#Celcius_Button{
+    background-color: coral;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*Now let us set a hover effect for the input and buttons */
+
+
+#Faranheit_Button:hover {
+     background-color: #D67657;
+    transition: 0.3;
+}
+
+
+#Celcius_Button:hover {
+     background-color: #D67657;
+    transition: 0.3;
+}
+
+
+
+
+
+
+
+
